@@ -37,3 +37,34 @@
     color:chartreuse;
     
 }
+.banner-img{
+    width: 300px;
+}
+.banner-contain{
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    background-color: rgba(140, 184, 201, 0.945);
+    padding: 0 30px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.tittle{
+    font-size: 45px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
