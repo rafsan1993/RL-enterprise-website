@@ -19,6 +19,7 @@
 }
 .menu{
     display: flex;
+    
 }
 .item{
     margin-right: 15px;
@@ -37,6 +38,10 @@
     color:chartreuse;
     
 }
+
+/* banner Section Starts  */
+
+
 .banner-img{
     width: 300px;
 }
@@ -67,4 +72,136 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 50px;
+    height: 100vh;
+    align-items: center;
+    padding: 10px;
+}
+.about-section{
+    background-color: aquamarine;
+
+}
+.about-tittle{
+    font-size: 45px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 8px 9px 36px 10px #E2F6CA;
+
+    
+}
+.about-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-info p{
+margin: 10px 0;
+}
+.about-info h1{
+    font-size: 35px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    height: 80vh;
+
+}
+.box img{
+    width: 120px;
+    height: 150px;
+    margin-top: 5px;
+    padding: 0px;
+   
+}
+.box{
+    width: 250px;
+    height: 340px;
+    padding: 15px;
+    border: 1px solid blanchedalmond;
+    box-shadow:4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+}
+
+.box-tittle{
+    padding: 10px;
+
+}
+
+.box-description{
+    padding: 10px;
+}
+
+/* footer style start  */
+
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    height: 60vh;
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 0px;
+
+
+}
+
+.footer-container, li,p{
+    margin-bottom: 5px;
+}
+
+
+.footer-container,ul{
+    list-style: none;
+}
+
+
+
+.footer-text{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+   
+}
+
+.footer-box h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.footer-tittle{
+    color: red;
+}
+
+#best-family{
+    color: aquamarine;
+}
+
+.footer-company-tittle{
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.footer-background{
+    background-color: black;
 }
